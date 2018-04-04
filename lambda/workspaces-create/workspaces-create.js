@@ -11,7 +11,7 @@ var workspaces = new AWS.WorkSpaces({
 // WorkSpaces must be tied to a Directory Service ID. Creation of the Directory Service is outside the scope of the portal.
 // By default, all WorkSpaces are configured with 'Auto Stop' mode with a usage timeout of 1 hour.
 var config = {
-    Directory: process.env.DIRECTORY_ID || 'd-90672a878e',
+    Directory: process.env.DIRECTORY_ID || 'd-956731f3af',
     Mode: 'AUTO_STOP',
     UsageTimeout: 60
 }
